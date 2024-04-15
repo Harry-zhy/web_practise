@@ -1,0 +1,137 @@
+.title {
+  color: #000000;
+  font-size: 60px;
+
+  text-align: center;
+  text-decoration-color: #f7afc2;
+  text-decoration: underline;
+}
+.VenueInformation {
+  background-image: linear-gradient(to bottom, #ffbbd0, #b480e9);
+  border-radius: 1vmin;
+  padding: 9px;
+  width: 45vw;
+  height: 15vh;
+  text-align: left;
+  font-size: 20px;
+  flex-basis: auto;
+  color: #f3ecf3;
+  border: none;
+}
+
+.venue-info {
+  background-color: #ffbbd0;
+  padding: 9px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+  border-radius: 1vmin;
+  width: 45vw;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  margin-top: 0.5vh;
+}
+.venue-info:hover {
+  filter: drop-shadow(0 0 8px rgb(180, 128, 233));
+}
+
+.VenueInformation input {
+  background: transparent;
+  color: #f3ecf3;
+  border: none;
+  font-size: 17px;
+}
+
+.iconMapLocation {
+  display: flex;
+  justify-content: space-around;
+
+  //transform: translate(0.2cm, 0.2cm);
+}
+
+.mapLocation {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconCookBook {
+  display: flex;
+  justify-content: space-around;
+  //transform: translate(0.2cm, 0.2cm);
+}
+.cook-info {
+  background-color: #ffbbd0;
+  padding: 9px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5vh;
+  border-radius: 1vmin;
+  width: 45vw;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.cook-info:hover {
+  filter: drop-shadow(0 0 8px rgb(180, 128, 233));
+}
+
+.caterers {
+  background-image: linear-gradient(to bottom, #ffbbd0, #b480e9);
+  border-radius: 1vmin;
+  padding: 9px;
+  width: 45vw;
+  height: 15vh;
+  text-align: left;
+  font-size: 20px;
+  flex-basis: auto;
+  color: #f3ecf3;
+  border: none;
+}
+
+.caterers input {
+  border: none;
+  background: transparent;
+  color: #f3ecf3;
+}
+.iconCamp {
+  //transform: translate(0.2cm, 0.2cm);
+  display: flex;
+  justify-content: space-around;
+}
+.camp-info {
+  background-color: #ffbbd0;
+  padding: 9px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+  border-radius: 1vmin;
+  width: 45vw;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  margin-top: 0.5vh;
+}
+.camp-info:hover {
+  filter: drop-shadow(0 0 8px rgb(180, 128, 233));
+}
+
+.activityText {
+  padding: 9px;
+  border-radius: 1vmin;
+  width: 45vw;
+  height: 12vh;
+  max-height: 30vh;
+  font-size: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-image: linear-gradient(to bottom, #ffbbd0, #b480e9);
+  color: #f3ecf3;
+  border-color: transparent;
+  transition-duration: 0.5s;
+}
+.activityText input {
+  color: #f3ecf3;
+}

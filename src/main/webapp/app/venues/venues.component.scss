@@ -1,0 +1,66 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex; // 使用Flexbox布局
+  flex-direction: column; // 子项垂直排列
+  align-items: center; // 水平居中
+  justify-content: center; // 垂直居中
+  height: 100vh; // 占满整个视口的高度
+  padding: 5vh; // 添加一些内边距
+
+}
+
+.title {
+  color: white;
+  font-size: 6vmin; // 字体大小相对于视口最小维度
+  // 下边距使用视口高度的百分比
+  text-align: center;
+  margin: 0 auto 15vmin;
+}
+
+.decoBar {
+  background-color: #f9b0c3;
+  height: 1vmin;
+  width: 80vw; // 宽度相对于视口宽度
+  max-width: 600px; // 最大宽度限制
+  border-radius: 1vmin;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 600px;
+  text-align: center;
+}
+
+.box {
+  background-color: #f9b0c3;
+  margin: 2vh 0; // 上下边距使用视口高度的百分比
+  border-radius: 1vmin;
+  padding: 3vh 0; // 内边距使用视口高度的百分比
+}
+
+.boxText {
+  font-size: 4vmin; // 字体大小相对于视口最小维度
+  text-align: center;
+}
+
+.box:hover {
+  background-color: palegoldenrod;
+  transform: scale(1.05);
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.box:active {
+  background-color: peachpuff;
+  transform: scale(0.95);
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+

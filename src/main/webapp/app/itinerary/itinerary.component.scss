@@ -1,0 +1,437 @@
+//colour palette
+$light-pink: #ffdee7;
+$dark-pink: #f9b0c3;
+$myyellow: #ffc212;
+$hover-purple: #f3f2ff;
+$light-purple: #e0dffd;
+$purple: #7769c6;
+$dark-blue: #172c49;
+
+.header {
+  width: 100%;
+  background-color: #172c49;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 15px;
+}
+
+.whiteBackground {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  border-width: 100%;
+  background-color: #fff;
+}
+
+.pinkBox {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  align-self: center;
+  position: relative;
+  overflow: auto;
+
+  width: 100%;
+  max-width: 95%; //makes it fit to screen and adjust with size of screen
+  height: auto; //330px;
+  background-color: #f9b0c3;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin: 1.5em;
+}
+
+h1 {
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 4px 4px #ffc212;
+}
+
+h4 {
+  font-size: 40px;
+  position: relative;
+  top: 0;
+  margin-left: 25px;
+  color: $dark-blue;
+  margin-bottom: -2px;
+}
+
+.miniHeader {
+  margin-top: 20px;
+}
+
+.custom-icon {
+  color: $light-purple;
+}
+
+span {
+  color: #ffffff;
+  align-items: center;
+}
+
+p {
+  font-size: 15px;
+  color: #172c49;
+  margin-left: 25px;
+  margin-bottom: -20px;
+}
+
+//---------------------------NUMBER OF GUESTS------------------------------
+
+.guestsButton {
+  background-color: $light-purple;
+  color: $dark-blue;
+  border-radius: 10px;
+  border: none;
+  outline: none !important;
+  width: 30%;
+  height: 100%;
+  box-shadow: 10px 10px $myyellow;
+  background-size: cover;
+  display: block;
+  margin-bottom: 20px;
+
+  padding-bottom: 160px;
+  font-size: 25px;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  position: relative;
+
+  width: 100%;
+  max-width: 95%; //makes it fit to screen and adjust with size of screen
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1em;
+  margin-bottom: 20px;
+}
+
+.guestsButton:hover,
+.guestsButton.clicked {
+  background-color: #f3f2ff;
+  box-shadow: 5px 5px $myyellow;
+}
+
+#guestBtn1 {
+  background-image: url('/content/images/itineraryImages/button1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#guestBtn2 {
+  background-image: url('/content/images/itineraryImages/button2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#guestBtn3 {
+  background-image: url('/content/images/itineraryImages/button3.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+// secrert hidden search box
+.inputContainer {
+  padding: 20px;
+  margin-top: auto;
+  //position: absolute;
+  align-self: center;
+  bottom: 0;
+  //left: 30%;
+  width: 50%;
+  text-align: center;
+}
+
+.inputContainer input {
+  width: 60%;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+//-----------------------------DATE AND TIME------------------------------
+
+//clock styling
+
+//date time calendar styling
+.dateTimeWrapper {
+  display: flex;
+  padding: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.calendarBox {
+  margin-right: 20px;
+  background: $light-purple;
+  width: 90%;
+  margin-top: 10px;
+  align-self: center;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px $myyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendarButtons {
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.navCalendar {
+  background-color: white;
+  border-radius: 100%;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navCalendar:hover {
+  color: $light-purple;
+}
+.navCalendar:active {
+  color: $light-purple;
+}
+
+.monthTitle {
+  font-size: 20px;
+}
+
+#selectedDate {
+  margin-top: auto;
+  align-self: center;
+  bottom: 0;
+  width: 20%;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+
+#selectedTime {
+  margin-top: auto;
+  align-self: center;
+  bottom: 0;
+  width: 20%;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+
+#calendar {
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-row-gap: 5px;
+  padding: 5px;
+
+  .day-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .day {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: $light-purple;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #172c49;
+
+    &:hover {
+      background-color: $light-pink;
+    }
+
+    &.selected {
+      background-color: $dark-pink;
+      color: white;
+    }
+  }
+  .empty-day {
+    visibility: hidden;
+  }
+}
+
+.timeBox {
+  background: $light-purple;
+  width: 90%;
+  height: 387px;
+  margin-top: 10px;
+  align-self: center;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px $myyellow;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 0;
+}
+
+.timeBox select {
+  margin-right: 10px;
+}
+
+.time-picker {
+  display: inline;
+  align-items: center;
+}
+
+.time-picker select,
+.timeBox span {
+  display: inline;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.time-picker select:last-child {
+  margin-right: 0;
+}
+
+.TimeTitle {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 7%;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+#startTimeSelect {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.submitButton {
+  //width: 90%;
+  padding: 5px;
+  //left: 4px;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}
+
+button.submit {
+  background: none;
+  border: none;
+  padding: 5px;
+
+  i {
+    font-size: 40px;
+    color: $purple;
+  }
+}
+
+//-----------------------------LOCATION------------------------------
+body {
+  background: #fff;
+  font-family: sans-serif;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid $myyellow;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: $light-purple;
+}
+
+.searchTerm:focus {
+  color: $dark-blue;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid $myyellow;
+  background: $myyellow;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.pickVenue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  background-color: $light-purple;
+  color: $dark-blue;
+  border-radius: 10px;
+  border: none;
+  outline: none !important;
+  width: 90%;
+  box-shadow: 10px 10px $myyellow;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+//-----------------------------VENDORS------------------------------
+
+.vendorsBox {
+  padding: 20px;
+  align-items: start;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.optionBox {
+  padding: 7px;
+  margin-top: 5px;
+}
+
+.add {
+  background: none;
+  font-size: 50px;
+  color: $light-pink;
+  border: none;
+}

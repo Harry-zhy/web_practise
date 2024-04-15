@@ -1,0 +1,125 @@
+.heading {
+  position: relative;
+}
+
+.icon {
+  color: #f9b0c3;
+  font-size: 70px;
+}
+
+.back {
+  background-color: #ffffff;
+  border: none;
+  outline: none !important;
+}
+
+.companyName {
+  width: 70%;
+  text-align: center;
+  margin: 1em;
+  display: inline-block;
+}
+.saveText {
+  color: #f9b0c3;
+  font-size: 20px;
+}
+
+.save {
+  border: none;
+  background-color: #ffffff;
+  outline: none !important;
+}
+
+.icon2 {
+  color: #f9b0c3;
+  font-size: 50px;
+}
+
+.companyNameText {
+  font-size: 78px;
+  text-shadow: 4px 4px #ffc212;
+  color: #172c49;
+  font-weight: 800;
+}
+
+.backbutton {
+  height: 100px;
+  width: 10%;
+  display: inline-block;
+  margin: 1em;
+}
+
+.savebutton {
+  height: 80px;
+  width: 10%;
+  background-color: #ffffff;
+  border: none;
+  outline: none !important;
+  display: inline-block;
+  text-align: center;
+}
+
+.aboutSection {
+  height: 400px;
+  width: 47%;
+  background-color: #e0dffd;
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.imagesSection {
+  height: 400px;
+  width: 47%;
+  background-color: #e0dffd;
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.ratingSection {
+  height: 200px;
+  width: 33%;
+  background-color: #e0dffd;
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.boxTitles {
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px #ffc212;
+  color: #172c49;
+  font-weight: 700;
+}
+
+.profileSection {
+  height: 200px;
+  width: 24%;
+  background-color: #e0dffd;
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.contactDetailsSection {
+  height: 200px;
+  width: 33%;
+  background-color: #e0dffd;
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.nextCompanyButton {
+  height: 120px;
+  width: 130px;
+  background-color: #ffffff;
+  float: right;
+  text-align: center;
+}

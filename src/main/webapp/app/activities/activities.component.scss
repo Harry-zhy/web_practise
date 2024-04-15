@@ -1,0 +1,141 @@
+body {
+  background-color: #ffffff;
+}
+.top {
+  width: 100%;
+  background-color: #172c49;
+  text-align: center;
+}
+
+.heading {
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 4px 4px #ffc212;
+}
+
+.blockTitle {
+  font-size: 40px;
+  left: 10px;
+}
+
+.blockExplanation {
+  font-size: 18px;
+  left: 10px;
+}
+
+.title {
+  background: #ffffff;
+  width: 100%;
+  position: relative;
+}
+
+.positioning {
+  position: relative;
+  height: 375px;
+  display: inline-block;
+}
+
+.positioningSection {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+}
+
+.icon {
+  color: #f9b0c3;
+  font-size: 40px;
+}
+.searchiconButton {
+  border: none;
+  outline: none !important;
+  background-color: #e0dffd;
+}
+.searchIcon {
+  color: #f9b0c3;
+  font-size: 20px;
+}
+
+.next {
+  height: 60px;
+  width: 60px;
+  border-radius: 5000px;
+  border: solid 6px #f9b0c3;
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+form {
+  background-color: #e0dffd;
+  width: 100%;
+  height: 44px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.formbox {
+  position: relative;
+  margin: auto;
+  align-items: center;
+}
+
+.space {
+  height: 50px;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #ffffff;
+  height: 100%;
+  width: 95%;
+  padding: 6px 10px;
+}
+
+.bookiconssection {
+  width: 250px;
+  background-color: #f9b0c3;
+  border-radius: 8px;
+  text-align: center;
+  margin: 3em;
+  display: in-line block;
+}
+
+.iconimages {
+  width: 100%;
+  height: 100%;
+  border: none !important;
+}
+
+.bookbutton {
+  width: 200px;
+  display: inline;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 10px 10px #ffc212;
+  margin: 1em;
+  border: none;
+  outline: none !important;
+  align-items: center;
+}
+
+.selfbutton {
+  width: 200px;
+  display: inline;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 15px 10px #ffc212;
+  margin: 1em;
+}

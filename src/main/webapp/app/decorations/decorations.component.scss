@@ -1,0 +1,135 @@
+.decor-title {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #172c49;
+  border-radius: 20px;
+  text-shadow: 5px 5px 0px #fccd3f;
+}
+.white-background {
+  background-color: white;
+}
+.page-container {
+  background-color: white;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.search-bar {
+  background: #e0dffd;
+  border-radius: 25px;
+  width: 1900px;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  transition: ease-in-out 0.3s;
+}
+.search-bar:hover {
+  transform: scale(100.5%);
+  filter: brightness(102%);
+  box-shadow: 0 0 10px #e0dffd;
+}
+.search-bar input {
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+  padding-left: 15px;
+  width: 100%;
+  max-width: 1900px;
+}
+.search-bar button {
+  background-color: transparent;
+  outline: none;
+  border-color: transparent;
+}
+.search-bar button img {
+  height: 25px;
+  padding-right: 3px;
+}
+::placeholder {
+  color: rgba(23, 44, 73, 0.61);
+  font-size: 15px;
+}
+.companies {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+.company-slider {
+  height: 800px;
+  width: 1030px;
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 50px;
+}
+.company-slider div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 120px;
+  padding-left: 20px;
+  padding-right: 120px;
+  padding-top: 20px;
+}
+.pink-box img {
+  width: 200px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 0px #fccd3f;
+}
+.previous-button {
+  position: relative;
+  left: -40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.previous-button:hover {
+  transform: scale(105%);
+  filter: brightness(110%);
+  box-shadow: 0 0 10px #f9b0c3ff;
+}
+.next-button {
+  position: relative;
+  left: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.next-button:hover {
+  transform: scale(105%);
+  filter: brightness(110%);
+  box-shadow: 0 0 10px #f9b0c3ff;
+}
+.pink-box {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-color: #f9b0c3ff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.pink-box:hover {
+  transform: scale(105%);
+  filter: brightness(110%);
+  box-shadow: 0 0 10px #f9b0c3ff;
+}
+.comp-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.themes {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}

@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  height: 85vmin;
+  align-content: center;
+}
+
+.title2 {
+  color: white;
+  font-size: 6vmin;
+}
+
+.decoBar2 {
+  background-color: #f9b0c3;
+  height: 1vmin;
+  width: 80vw; // 宽度相对于视口宽度
+  max-width: 1300px; // 最大宽度限制
+  border-radius: 1vmin;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5vmin;
+  width: 100%;
+}
+
+.bar2 {
+  width: 80vmin;
+  background-color: #f9b0c3;
+  height: 15vmin;
+  display: flex;
+  //justify-content: space-around;
+  border-radius: 10vmin;
+  align-items: center;
+
+}
+
+.boxText2 {
+  align-content: center;
+  font-size: 4vmin;
+  //align-items: center;
+}
+
+.searchButton {
+  background-color: burlywood;
+  border-radius: 45px;
+  margin-top: 5vmin;
+}
+
+.search {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.searchButton:hover {
+  background-color: palegoldenrod;
+  transform: scale(1.1);
+  transition: background-color 0.5s ease, transform 0.2s ease;
+}
+
+.searchButton:active {
+  background-color: peachpuff;
+  transform: scale(0.9);
+  transition: background-color 0.2s ease, transform 0.5s ease;
+}
+
+.inputStyle {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: white;
+  text-align: center;
+  font-size: 4vmin;
+  margin: 0 2vmin;
+  width: 10%;
+}
+
+.inputStyle:focus {
+  outline: none;
+  border-bottom: 1px solid #f9b0c3;
+}
+
+.inputVenueUse {
+  width: 50%;
+}
+
+.icon-container2 {
+  //height: 13vmin;
+  //width: 80vmin;
+  //position: absolute;
+  //top: 240px;
+  //left: 20%;
+  //display: flex;
+  align-items: center;
+  //justify-content: flex-start;
+  //padding-left: 2vmin;
+  //margin-top: 7vmin;
+}
+.money,
+.area,
+.venue,
+.time {
+  font-size: 13vmin;
+  color: #f9b0c3;
+}
+
+
+.goBack {
+  font-size: 4vmax;
+  font-weight: bold;
+  align-content: center;
+  left: 8vmin;
+  position: absolute;
+  color: white;
+  height: 10vh;
+  transition-duration: 0.3s;
+}
+
+.goBack:hover {
+  transform: scale(1.2);
+  color: palegoldenrod;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
