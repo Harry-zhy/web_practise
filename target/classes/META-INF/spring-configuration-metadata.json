@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "team.bham.config.ApplicationProperties",
+      "sourceType": "team.bham.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

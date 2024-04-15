@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <condition else="false" property="skip.npm" value="true">
+      <and>
+        <available file="checksums.csv" filepath="C:\Users\22883\Desktop\Team Project\Git\target" />
+        <available file="checksums.csv.old" filepath="C:\Users\22883\Desktop\Team Project\Git\target" />
+        <filesmatch file2="C:\Users\22883\Desktop\Team Project\Git\target/checksums.csv.old" file1="C:\Users\22883\Desktop\Team Project\Git\target/checksums.csv" />
+      </and>
+    </condition>
+  </target>
+</project>
