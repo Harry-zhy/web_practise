@@ -2,53 +2,63 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: 100vh;
   margin: 0;
-  //background-color: #1a2a33; /* 用你的背景色代替这个颜色 */
 }
 
 .container {
   text-align: center;
-  height: 80vmin;
+  height: 85vmin;
   align-content: center;
 }
 
-.title {
+.title2 {
   color: white;
   font-size: 6vmin;
 }
 
-.decoBar {
+.decoBar2 {
   background-color: #f9b0c3;
   height: 1vmin;
-  border-radius: 10vmin;
+  width: 80vw; // 宽度相对于视口宽度
+  max-width: 1300px; // 最大宽度限制
+  border-radius: 1vmin;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .bar {
-  width: 80vmin;
-  background-color: #f9b0c3;
-  height: 13vmin;
-  margin: 10vmin 50vmin auto;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  border-radius: 10vmin;
-  // align-content: center;
+  margin-top: 5vmin;
+  width: 100%;
 }
 
-.boxText {
+.bar2 {
+  width: 80vmin;
+  background-color: #f9b0c3;
+  height: 15vmin;
+  display: flex;
+  //justify-content: space-around;
+  border-radius: 10vmin;
+  align-items: center;
+
+}
+
+.boxText2 {
   align-content: center;
   font-size: 4vmin;
-
   //align-items: center;
 }
 
 .searchButton {
-  background-color: grey;
-  border-radius: 100%;
-  width: 20vmin;
-  height: 20vmin;
-  margin: -10vmin 0 0 85vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: burlywood;
+  border-radius: 45px;
+  margin-top: 5vmin;
 }
 
 .search {
@@ -57,19 +67,18 @@ body {
 }
 
 .searchButton:hover {
-  transform: scale(1.05);
   background-color: palegoldenrod;
-  cursor: pointer;
-  transition: all 0.5s ease;
+  transform: scale(1.1);
+  transition: background-color 0.5s ease, transform 0.2s ease;
 }
 
 .searchButton:active {
-  transform: scale(0.95);
-  background-color: yellowgreen;
-  transition: all 0.5s ease;
+  background-color: peachpuff;
+  transform: scale(0.9);
+  transition: background-color 0.2s ease, transform 0.5s ease;
 }
 
-.inputStyle2 {
+.inputStyle {
   background: transparent;
   border: none;
   border-bottom: 1px solid #fff;
@@ -80,58 +89,34 @@ body {
   width: 10%;
 }
 
-.inputStyle2:focus {
+.inputStyle:focus {
   outline: none;
   border-bottom: 1px solid #f9b0c3;
 }
 
-.icon-container {
-  //height: 13vmin;
-  //width: 80vmin;
-  //position: absolute;
-  //top: 285px;
-  //left: 420px;
-  //display: flex;
-  //align-items: center;
-  //justify-content: flex-start;
-  //padding-left: 2vmin;
-  align-items: center;
-}
-
-.icon {
-  font-size: 13vmin;
-  color: #f9b0c3;
+.inputVenueUse {
+  width: 50%;
 }
 
 .icon-container2 {
-  height: 13vmin;
-  width: 80vmin;
-  position: absolute;
-  top: 510px;
-  left: 420px;
-  display: flex;
+  //height: 13vmin;
+  //width: 80vmin;
+  //position: absolute;
+  //top: 240px;
+  //left: 20%;
+  //display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding-left: 2vmin;
+  //justify-content: flex-start;
+  //padding-left: 2vmin;
+  //margin-top: 7vmin;
 }
-
+.icon,
 .icon2,
 .time {
   font-size: 13vmin;
   color: #f9b0c3;
 }
 
-.icon-container3 {
-  height: 13vmin;
-  width: 80vmin;
-  position: absolute;
-  top: 730px;
-  left: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 2vmin;
-}
 
 .goBack {
   font-size: 4vmax;
